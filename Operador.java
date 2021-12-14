@@ -4,6 +4,6 @@ public class Operador extends Empleado{
   }
   @Override
   public String toString(){
-  return "Soy operador de la empresa, mi nombre es " + getNombre();
+  return "Operador de la empresa, nombre: " + getNombre();
   }
 }

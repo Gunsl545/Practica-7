@@ -10,8 +10,12 @@ public String getNombre(){
   return nombre;
 }
 
+public void setNombre(String nombre){
+  this.nombre = nombre;
+}
+
 public String toString(){
-  return "Soy empleado de la empresa, mi nombre es " + nombre;
+  return "Empleado de la empresa, nombre: " + nombre;
 }
 }
 
