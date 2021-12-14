@@ -1,3 +1,8 @@
+/**
+ *@author Adrián Lima García
+ * @version 1.0
+ */
+
 //Subclase de Empleado
 public class Operador extends Empleado{
   public Operador(String nombre){

@@ -1,3 +1,8 @@
+/**
+ *@author AdriÃ¡n Lima GarcÃ­a
+ * @version 1.0
+ */
+
 import java.util.Scanner;
 import java.util.Random;
 
@@ -7,12 +12,12 @@ public class Bubblesort{
 	Random r = new Random();
 
 	// Definimos la cantidad de elementos que tendra el arreglo
-	System.out.println("De que cantidad de números quiere el arreglo?");
+	System.out.println("De que cantidad de nï¿½meros quiere el arreglo?");
 	int num,aux;
 	do{
 	    num = sh.nextInt();
 	    if(num<=0){
-		System.out.println("El número ingresado no es un entero positivo: ");
+		System.out.println("El nï¿½mero ingresado no es un entero positivo: ");
 	    }
 	}while(num<=0);
 	long inicio = System.currentTimeMillis();

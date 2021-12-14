@@ -1,3 +1,8 @@
+/**
+ *@author AdriÃ¡n Lima GarcÃ­a
+ * @version 1.0
+ */
+
 import java.util.Scanner;
 import java.util.Random;
 
@@ -6,7 +11,7 @@ public class QuickSort {
     public static void main(String[] args) {
        Scanner sh = new Scanner(System.in);
        Random r = new Random();
-       System.out.print("De que tamaño quiere que sea el arreglo a ordenar? ");
+       System.out.print("De que tamaï¿½o quiere que sea el arreglo a ordenar? ");
        int n = sh.nextInt();
        int[] arreglo = new int[n];
        long inicio = System.currentTimeMillis();
@@ -71,7 +76,7 @@ public class QuickSort {
                 
             }
         }
-	//EL PIVOTE SE REACOMODA EN LA POSICIOÓN EN LA QE TANTO i COMO j SON EL MISMO VALOR, DEJANDO DEL LADO DERECHO A LOS NÚMEROS MAYORES AL PIVOTE
+	//EL PIVOTE SE REACOMODA EN LA POSICIOï¿½N EN LA QE TANTO i COMO j SON EL MISMO VALOR, DEJANDO DEL LADO DERECHO A LOS Nï¿½MEROS MAYORES AL PIVOTE
 	// Y A LA IZQUIERDA LOS MENORES
         arreglo[izq] = arreglo[j];
         arreglo[j] = pivote;

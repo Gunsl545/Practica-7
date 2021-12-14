@@ -1,3 +1,8 @@
+/**
+ *@author Adrián Lima García
+ * @version 1.0
+ */
+
 //Super clase principal
 public class Empleado{
   private String nombre;

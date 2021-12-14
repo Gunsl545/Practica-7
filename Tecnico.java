@@ -1,3 +1,8 @@
+/**
+ *@author Adrián Lima García
+ * @version 1.0
+ */
+
 //Subclase de Operador
 public class Tecnico extends Operador{
   public Tecnico(String nombre){

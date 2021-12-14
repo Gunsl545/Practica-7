@@ -1,3 +1,8 @@
+/**
+ *@author Adrián Lima García
+ * @version 1.0
+ */
+
 //Subclase de Operador
 public class Oficial extends Operador{
   public Oficial(String nombre){

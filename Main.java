@@ -1,3 +1,8 @@
+/**
+ *@author Adrián Lima García
+ * @version 1.0
+ */
+
 //Clase para mandar a llamar a las super, y sub clases
 class Main {
   public static void main(String[] args) {
