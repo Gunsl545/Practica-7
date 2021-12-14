@@ -1,3 +1,4 @@
+//Clase para mandar a llamar a las super, y sub clases
 class Main {
   public static void main(String[] args) {
     Empleado Zoe = new Empleado("Zoé");

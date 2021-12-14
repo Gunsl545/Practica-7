@@ -1,3 +1,4 @@
+//Super clase principal
 public class Empleado{
   private String nombre;
 

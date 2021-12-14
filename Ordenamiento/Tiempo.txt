@@ -1,0 +1,5 @@
+El Ordenamiento Bubblesort tarda aproximadamente 28.4 segundos
+
+Mientras que Quicksort tarda aproximadamente 4.9 segundos
+
+Una cosa que queria aclarar es que aún me cuesta comprender el funcionamiento del codigo de Quicksort, pero la idea de la forma de ordenar me queda mas clara, trata de ir dividiendo el arreglo en arreglos cada vez mas pequeños e irlos ordenando, es por esto que es considerablemente mas rapido realizar este Ordenamiento.

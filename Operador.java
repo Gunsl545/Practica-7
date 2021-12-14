@@ -1,3 +1,4 @@
+//Subclase de Empleado
 public class Operador extends Empleado{
   public Operador(String nombre){
     super(nombre);

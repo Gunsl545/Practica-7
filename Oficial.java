@@ -1,3 +1,4 @@
+//Subclase de Operador
 public class Oficial extends Operador{
   public Oficial(String nombre){
     super(nombre);

@@ -1,3 +1,4 @@
+//Subclase de Empleado
 public class Directivo extends Empleado{
   public Directivo(String nombre){
     super(nombre);
